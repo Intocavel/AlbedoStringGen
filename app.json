@@ -1,0 +1,56 @@
+{
+  "name": "Pyrogram String Session Generator",
+  "description": "Bot de telegrama para gerar sessão de string de pyrograma",
+  "logo": "https://telegra.ph/file/2a395d0cf6a25d470d184.jpg",
+  "keywords": [
+    "telegram",
+    "bot",
+    "python",
+    "pyrogram"
+  ],
+    "buildpacks": [{
+    "url": "heroku/python"
+  }],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "addons": [
+      {
+         "options": {
+            "version": "12"
+         },
+         "plan": "heroku-postgresql"
+      }
+   ],
+  "repository": "https://github.com/Intocavel/AlbedoStringGen",
+  "env": {
+    "ENVIRONMENT": {
+      "description": "Don't change ANYTHING.",
+      "required": true,
+      "value": "ANYTHING"
+    },
+    "API_ID": {
+      "description": "Obtenha este valor em my.telegram.org.",
+      "required": true,
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Obtenha este valor em my.telegram.org.",
+      "required": true,
+      "value": ""
+    },
+    "BOT_TOKEN": {
+      "description": "Obtenha um token de bot do Telegram entrando em contato com @BotFather",
+      "required": true,
+      "value": ""
+    },
+    "MUST_JOIN": {
+      "description": "Adicionar nome de usuário/id de um canal/grupo",
+      "required": false,
+      "value": ""
+    }
+  }
+}
