@@ -23,8 +23,7 @@ Bot de telegrama para gerar pyrograma e sessão de string de teleton.
 
 1. Clone o repositório
 
-markdown
-git clone https://github.com/Intocavel/AlbedoStringGen
+markdown git clone https://github.com/Intocavel/AlbedoStringGen
 
 2. Obtenha um DATABASE_URL. Se você não sabe como, implemente usando apenas o Heroku Button ou exclua coisas do banco de dados, pois não é uma compulsão.
 
@@ -32,13 +31,11 @@ git clone https://github.com/Intocavel/AlbedoStringGen
 
 4. Entre no diretório
 
-markdown
-cd StringSessionBot
+markdown cd AlbedoStringGen
 
 5. Execute o arquivo
 
-markdown
-python3 generator.py
+markdown python3 generator.py
 
 
 ## variaveis necessárias
