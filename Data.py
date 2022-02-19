@@ -40,7 +40,7 @@ By @AlbedoProjects
     
         # Help Message
     HELP = """
-✨ **Comandos disponíveis** ✨
+✨ Comandos disponíveis ✨
 
 /about - Sobre o bot
 /help - Esta mensagem
@@ -49,6 +49,7 @@ By @AlbedoProjects
 /cancel - Cancelar o processo
 /restart - Cancelar o processo
 """
+await message.reply(HELP)
 
     # About Message
     ABOUT = """
