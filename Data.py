@@ -36,7 +36,7 @@ By @AlbedoProjects
             InlineKeyboardButton("Como usar ❔", callback_data="help"),
             InlineKeyboardButton("About", callback_data="about")
         ],
-        [InlineKeyboardButton("Meu criador", url"https://t.me/lntocavel")],
+        [InlineKeyboardButton("Meu criador", url="https://t.me/lntocavel")],
     
         # Help Message
     HELP = """
