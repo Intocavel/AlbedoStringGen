@@ -38,7 +38,7 @@ By @AlbedoProjects
         ],
         [InlineKeyboardButton("Meu criador", url="https://t.me/lntocavel")],
     
-        # Help Message
+    # Help Message
     HELP = """
 ✨ Comandos disponíveis ✨
 
