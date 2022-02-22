@@ -13,8 +13,8 @@ Se você não confia neste bot,
 2) excluir este bate-papo
 
 Ainda lendo?
-Você pode me usar para gerar sessão pyrogram e de teleton. Use os botões abaixo para saber mais !
-
+Você pode me usar para gerar sessão pyrogram e teleton. Use os comandos abaixo para saber mais!
+Em
 By @AlbedoProjects
     """
 
