@@ -13,7 +13,7 @@ Se você não confia neste bot,
 2) excluir este bate-papo
 
 Ainda lendo?
-Você pode me usar para gerar pirograma e sessão de cordas de teleton. Use os botões abaixo para saber mais !
+Você pode me usar para gerar sessão pyrogram e de teleton. Use os botões abaixo para saber mais !
 
 By @AlbedoProjects
     """
